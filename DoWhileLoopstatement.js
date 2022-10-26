@@ -2,5 +2,4 @@ var i = 20
 do {
     console.log(i)
     i++
-}
-while (i<=25)
+}while (i<=25)

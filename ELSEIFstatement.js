@@ -1,4 +1,4 @@
-var course = 1
+var course = 2
 if (course == 1)
 console.log("html tutorial")
 else if(course == 2)
