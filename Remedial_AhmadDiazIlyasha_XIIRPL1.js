@@ -7,6 +7,28 @@ var x = 10
 multiple
 comment*/
 
+//assigment
+/*
+=
++=
+-=
+*=
+/=
+%=
+*/
+
+//comparison
+/*
+==
+===
+!=
+!==
+<
+<=
+>
+>=
+*/
+
 //if
 var x = 5
 var y = 10
@@ -40,6 +62,8 @@ case 3:
 default:
     console.log("another day")
 }
+
+//conditionals adalah proses program yang menghasilkan kondisi nilai boolean yaitu true atau false
 
 //for
 for( a=1 ; a >= 10 ; a++ ){
