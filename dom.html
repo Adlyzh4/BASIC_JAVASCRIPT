@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="demo"></div>
+    <div class="paragraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla enim voluptate at recusandae illum voluptatem modi quisquam error architecto a quos molestiae minus consequatur, ipsum nam earum, assumenda distinctio veritatis.</div>
+    <div class="paragraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla enim voluptate at recusandae illum voluptatem modi quisquam error architecto a quos molestiae minus consequatur, ipsum nam earum, assumenda distinctio veritatis.</div>
+    <div class="paragraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla enim voluptate at recusandae illum voluptatem modi quisquam error architecto a quos molestiae minus consequatur, ipsum nam earum, assumenda distinctio veritatis.</div>
+
+
+    <script>
+    //finds element by id
+    var demo = document.getElementById('demo') 
+    setInterval(function(){
+        demo.innerText = 'jeka'
+        demo.style.padding = '100px'
+        demo.style.fontSize = '100px'
+        demo.style.textAlign = 'center'
+        demo.style.backgroundColor = 'red'
+        demo.style.color = 'green'
+        
+        setTimeout(() => {
+            demo.innerText = 'salma'
+            demo.style.backgroundColor = 'blue'
+            demo.style.color = 'yellow'
+            
+        }, 500);
+    }, 1000)
+
+    //finds elements by class name
+    var paragraf = document.getElementsByClassName('paragraf')
+    console.log(paragraf.length)
+    setInterval(function(){
+        paragraf[0].style.backgroundColor = 'red'
+        paragraf[1].style.backgroundColor = 'blue'
+        paragraf[2].style.backgroundColor = 'green'
+
+        setTimeout(function(){
+            for(let x=0; x<paragraf.length; x++){
+                paragraf[x].style.backgroundColor = 'black'
+                paragraf[x].style.color = 'white'
+            }
+        },500)
+    },1000)
+
+    //finds elements by tag name
+    document.getElementsByTagName(name)
+    </script>
+</body>
+</html>

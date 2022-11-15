@@ -1,7 +1,7 @@
-var course = 2
-if (course == 1)
+var x = 2
+if (x == 1)
 console.log("html tutorial")
-else if(course == 2)
+else if(x == 2)
 console.log("css tutorial")
 else
 console.log("javascript tutorial")

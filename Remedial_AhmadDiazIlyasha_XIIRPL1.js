@@ -66,13 +66,13 @@ default:
 //conditionals adalah proses program yang menghasilkan kondisi nilai boolean yaitu true atau false
 
 //for
-for( a=1 ; a >= 10 ; a++ ){
+for( a=1 ; a <= 10 ; a++ ){
     console.log("selesai")
 }
 
 //while
 var b = 1
-while(b>=10){
+while(b<=10){
     console.log(b)
     b++
 }
@@ -83,4 +83,4 @@ do{
     console.log(c)
     c++
 }
-while(c>=10)
+while(c<=10)
